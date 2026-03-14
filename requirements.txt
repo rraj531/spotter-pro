@@ -1,0 +1,6 @@
+customtkinter
+requests
+python-dotenv
+haversine
+Pillow
+pystray
