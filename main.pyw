@@ -250,6 +250,7 @@ class SpotterApp(ctk.CTk):
     def set_custom_location(self):
         dialog = ctk.CTkInputDialog(text="Enter a custom address or place:", title="Set Custom SOS Location")
         address = dialog.get_input()
+    
 
         if not address or not address.strip():
             # User cancelled or entered empty string
